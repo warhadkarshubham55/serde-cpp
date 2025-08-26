@@ -11,3 +11,24 @@ It provides generic serialization and deserialization support for C++ structs ac
 ✅ Extensible: Add new backends with minimal effort.
 
 ✅ Header-only: Easy integration with modern C++ projects.
+
+
+🚀 Clone & Build Instructions
+
+Clone the repository :
+git clone https://github.com/<your-username>/serde-cpp.git
+cd serde-cpp
+
+Configure the project with CMake :
+(This will automatically fetch toml11 via FetchContent)
+cmake -B build
+
+Build the library and examples :
+cmake --build build
+
+Run the example :
+cd build
+./basic_toml.exe
+
+Run tests :
+./basic_toml_test
